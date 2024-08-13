@@ -120,7 +120,7 @@ const Home = () => {
         <div className="flex-1">
           <img
             className="w-[800px] h-96 object-cover rounded-bl-2xl rounded-rl-2xl"
-            src="/Knowledge.jpg"
+            src="https://www.shutterstock.com/image-photo/glowing-lightbulb-over-book-inspiring-260nw-2356246941.jpg"
             alt=""
           />
         </div>
