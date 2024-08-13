@@ -26,7 +26,7 @@ const Home = () => {
       <div className="m-2 relative">
         <img
           className="md:h-[500px] w-full object-cover rounded-bl-lg rounded-t-lg"
-          src="/public/thum-image.jpg "
+          src="/thum-image.jpg "
           alt=""
         />
         <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-6xl font-bold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-gray-700 text-center px-4">
@@ -61,7 +61,7 @@ const Home = () => {
         <div className="flex-1">
           <img
             className="w-[800px] h-96 object-cover"
-            src="/public/blog.jpg"
+            src="/blog.jpg"
             alt=""
           />
         </div>
@@ -94,7 +94,7 @@ const Home = () => {
         <div className="flex-1">
           <img
             className="w-[800px] h-96 object-cover rounded-bl-2xl rounded-rl-2xl"
-            src="/public/money.jpg"
+            src="/money.jpg"
             alt=""
           />
         </div>
@@ -120,7 +120,7 @@ const Home = () => {
         <div className="flex-1">
           <img
             className="w-[800px] h-96 object-cover rounded-bl-2xl rounded-rl-2xl"
-            src="/public/Knowledge.jpg"
+            src="/Knowledge.jpg"
             alt=""
           />
         </div>

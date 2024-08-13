@@ -18,7 +18,7 @@ const About = () => {
       <div className="grid gap-8 mt-12 lg:grid-cols-2">
         <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-xl">
           <img
-            src="/public/logo.jpg"
+            src="/logo.jpg"
             alt="Our Vision"
             className="w-24 h-24 mb-4 rounded-full"
           />
@@ -30,7 +30,7 @@ const About = () => {
 
         <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-xl">
           <img
-            src="/public/logo.jpg"
+            src="/logo.jpg"
             alt="Our Mission"
             className="w-24 h-24 mb-4 rounded-full"
           />
@@ -42,7 +42,7 @@ const About = () => {
 
         <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-xl">
           <img
-            src="/public/logo.jpg"
+            src="/logo.jpg"
             alt="Our Values"
             className="w-24 h-24 mb-4 rounded-full"
           />
@@ -54,7 +54,7 @@ const About = () => {
 
         <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-xl">
           <img
-            src="/public/logo.jpg"
+            src="/logo.jpg"
             alt="Join Us"
             className="w-24 h-24 mb-4 rounded-full"
           />
