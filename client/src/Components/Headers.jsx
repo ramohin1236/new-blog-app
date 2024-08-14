@@ -80,7 +80,7 @@ console.log(searchTerm);
              onClick={()=>dispatch(toggleTheme())}
              >
                 {
-                    theme === 'light'? <FaSun/> : <FaMoon/>
+                    theme === 'light'?<FaMoon/>  : <FaSun/>
                 }
                  
              </Button>

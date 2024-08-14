@@ -1,4 +1,5 @@
 import express from 'express';
+import cors from 'cors'
 import mongoose  from 'mongoose';
 import dotenv from 'dotenv';
 import UserRoutes from './routes/user.route.js';
@@ -25,7 +26,12 @@ mongoose
  
  
   const app =express();
+ 
 
+  app.use(cors({
+    origin: 'https://new-blog-app.onrender.com',
+    credentials: true,
+  }));
   app.use(express.json());
   app.use(cookieParser())
 

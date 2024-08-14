@@ -50,7 +50,7 @@ const Home = () => {
       </div>
       {/* design  */}
       <div className="h-96 container mx-auto md:flex mt-32 mb-44">
-        <div className="flex flex-col flex-1 text-center justify-center items-center">
+        <div className="flex flex-col flex-1 justify-center items-center text-start  mr-8">
           <h1 className="text-5xl mb-4">Choose the perfect design</h1>
           <p className="text-xl mb-6">
             Create a beautiful blog that fits your style. Choose from a
@@ -98,7 +98,7 @@ const Home = () => {
             alt=""
           />
         </div>
-        <div className="flex flex-col flex-1 text-center justify-center items-center">
+        <div className="flex flex-col flex-1  justify-center items-center  text-start  ml-8">
           <h1 className="text-5xl mb-4">Earn money</h1>
           <p className="text-xl mb-6">
           Get paid for your hard work. Google AdSense can automatically display relevant targeted ads on your blog so that you can earn income by posting about your passion.
@@ -110,9 +110,9 @@ const Home = () => {
 
       <div className="h-96 container mx-auto md:flex mt-12 max-sm:mb-[450px] md:mb-20">
        
-        <div className="flex flex-col flex-1 text-center justify-center items-center">
+        <div className="flex flex-col flex-1  justify-center items-center text-start mr-8">
           <h1 className="text-5xl mb-4">Gain Knowledge</h1>
-          <p className="text-xl mb-6">
+          <p className=" text-xl mb-6 mr-4">
           Gaining knowledge is a continuous process that enhances your understanding of the world. It involves actively seeking information, whether through reading, experiences, or interactions with others. This process not only broadens your perspective but also sharpens critical thinking and problem-solving skills. Knowledge empowers you to make informed decisions, adapt to change, and innovate. It fosters personal growth, boosts confidence, and contributes to success in various aspects of life. Embracing lifelong learning keeps the mind sharp and open to new possibilities.
           </p>
         </div>
