@@ -93,6 +93,9 @@ const SignIn = () => {
                     <Link to='/sign-up' className='text-blue-500 font-semibold ml-3'>Sign-up</Link>
                 </span>
              </div>
+             <div>
+              
+             </div>
             {
                 errorMessage && (
                     <Alert className='mt-5' color='failure'>
